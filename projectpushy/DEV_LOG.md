@@ -1,7 +1,15 @@
 # PUSHY — DEV LOG
 
 ## FORMAT
-Each entry: `[YYYY-MM-DD] | SPRINT X | STATUS | NOTES`
+Each entry: `[2026-04-16] | SPRINT 2 | IN POGRESS | UPDATES TO THE GAME SHARD HUNTER.
+
+Death screen — when health hits 0, the screen dims to near-black, "STATIC OVERLOAD" flashes in red, a countdown from 5 appears, and a pulsing "HUNT AGAIN" button glows. Tap it to restart instantly. If the 5 seconds elapse, it returns to the main screen automatically.
+Health bar — 5 green pip squares in the HUD (top-right). Each enemy hit removes one pip. After a hit there's a 1.5-second invincibility window (player flashes red twice). The bar doesn't kill you on the first touch anymore.
+Spree system — kills within 4 seconds of each other build a streak. At ×5 "STATIC SPREE ×5!" flashes centre-screen in gold, scaling up. Escalates to "STATIC DOMINATION ×7!" and "STATIC RAMPAGE ×10!". Each spree hit earns bonus XP multiplied by the streak count.
+Explosions — enemies burst into an expanding coloured circle on death. Red for regulars, brighter red for tanks, orange for bosses (when implemented). They fade over ~25 frames.
+Special weapon ready — when charge hits 100%, the special button pulses, a haptic fires, and bold text flashes centre-screen: "⚡ EMP BOMB READY!" in the operator's colour.
+Next Round flash — after tapping Resume Hunt, "NEXT ROUND / LET'S HUNT!" flashes twice in green over a dark overlay before the run starts.
+Bigger header — Shards show at 22px in neon green, Shadow Tokens at 20px in purple, both with text glow.
 
 ---
 
