@@ -1,7 +1,8 @@
 # PUSHY — DEV LOG
 
-## FORMAT
-Each entry: `[YYYY-MM-DD] | SPRINT X | STATUS | NOTES`
+## WEEK 3 - Seedvault $SKR integration 
+Each entry: `[2026-04-24] | SPRINT 3 | IN PROGRESS 
+
 
 ---
 
