@@ -1,0 +1,12 @@
+{
+    "name": "Shard Hunter: Project Pushy",
+    "short_name": "Shard Hunter",
+    "description": "Hardware-native extraction ARPG for the Solana Seeker. Scan technical streetwear via NFC for buffs, fight the Static, and forge on-chain Cores.",
+    "image": "app-icon.png",
+    "external_url": "https://pushy.xyz",
+    "category": "Games",
+    "solana_mobile_stack": {
+      "features": ["mwa", "seed_vault", "nfc"],
+      "min_sdk_version": 1
+    }
+  }
